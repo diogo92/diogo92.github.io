@@ -3735,6 +3735,27 @@ tbody.collapse.in {
     height: auto;
   }
 }
+
+
+    .panel-transparent {
+        background: none;
+        margin: auto;
+    }
+
+    .panel-transparent .panel-heading{
+            border-radius: 10px;
+            width: 70%;
+             margin: auto;
+        background: rgba(122, 130, 136, 0.9)!important;
+    }
+
+    .panel-transparent .panel-body{
+            border-radius: 10px;
+             width: 70%;
+              margin: auto;
+        background: rgba(46, 51, 56, 0.9)!important;
+    }
+
 .jumbotron .btn-app-store {
   margin-top: 40px;
 }
@@ -6001,6 +6022,8 @@ tbody.collapse.in {
 .features-section {
   background: #f3f4f5;
   text-align: left;
+  background: #2e2f41 url(../images/bg-2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
   padding: 100px 0;
 }
 .features-section .row.row-padding {
