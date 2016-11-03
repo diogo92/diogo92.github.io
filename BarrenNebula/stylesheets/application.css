@@ -3744,8 +3744,8 @@ tbody.collapse.in {
 
     .panel-transparent .panel-heading{
             border-radius: 10px;
-            width: 70%;
-             margin: auto;
+        width: 70%;
+        margin: auto;
         background: rgba(122, 130, 136, 0.9)!important;
     }
 
