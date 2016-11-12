@@ -28,7 +28,18 @@
     <style>
       @font-face { font-family: Jupiter; src: url('fonts/Jupiter.ttf'); } 
       h1,p,h3 {
-      font-family: Jupiter
+      font-family: Jupiter;
+
+      }
+      .noBG{
+        background-image: none !important;
+        background: none !important;
+        padding: 0 0 !important;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        
       }
     </style>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -190,16 +201,32 @@
 
         <div class="row">
 
-          <div class="col-md-4 col-footer col-padding">
+           
+
+          <div class="col-md-12 col-footer col-padding">
 
             <!-- Social media links -->
-            <ul class="social-media-links">
+            <ul class="social-media-links col-md-6">
 
-              <li><a class="fa fa-facebook fb" href="https://www.facebook.com/BarrenNebula/"></a></li>
+              <li><a class="fa fa-facebook fb" href="https://www.facebook.com/BarrenNebula/"></a></li>Like and Share on facebook!
               
             </ul> <!-- /.social-media-links -->
+            <div class="jumbotron noBG col-md-6">
+             <p class="btn-app-store">
+              <a class="btn btn-lg" href="https://play.google.com/store/apps/details?id=com.RibeiroProductions.SpaceFreaks">
+                <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
 
+              </a>
+            </p> <!-- /.btn-app-store -->
+
+            <p class="btn-app-store">
+              <a class="btn" href="https://www.microsoft.com/pt-pt/store/p/barren-nebula/9nblggh43pk7">
+                <img src="https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png" alt="Get it from Microsoft">
+              </a>
+            </p>       
+        </div>
           </div> <!-- /.col-md-4 -->
+
           
         </div> <!-- /.row -->
 
